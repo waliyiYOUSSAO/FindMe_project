@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>FIND ME</title>
+    <link rel="stylsheet" href="style.css">
+</head>
+<body>
+<div class="container"
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Poppins', sans-serif;
+	}
+	
+	
+	.container{
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex direction: column;
+		}
+<h1> FIND ME</h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.852418494346!2d2.3450422999999883!3d6.413002700000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1024a9818e90027f%3A0x8e8283c9c958197f!2sUniversit%C3%A9%20d&#39;Abomey%20Calavi%20du%20B%C3%A9nin!5e0!3m2!1sfr!2sbj!4v1715038799769!5m2!1sfr!2sbj" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+</div>
+<h2>
+L'appli révolutionnaire qui vous changera la vie.Désomais ne perdez plus rien et si jamais il vous arrive de perdre quelque chose pas de panique.FIND ME est la pour vous épauler.FIND ME plus qu'une appli, une future nécessité.Nous esperons que cette appli vous a été utile. N'hésitez donc pas a revenir au besoin.
+</h2>
+</body>
+</html>
