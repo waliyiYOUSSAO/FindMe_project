@@ -99,7 +99,7 @@ onValue(dataRef, (snapshot) => {
   
   if (data) {
     const markerIcon = {
-      url: "marque-demplacement.png", // URL de l'icône
+      url: "image/marque-demplacement.png", // URL de l'icône
       scaledSize: new google.maps.Size(32, 32), // Taille réduite de l'icône
     };
     const marker = new google.maps.Marker({

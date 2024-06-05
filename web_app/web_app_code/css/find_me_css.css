@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     min-height: 80vh;
-    background: url('back_ground/3d-view-map.jpg') no-repeat;
+    background: url('../image/3d-view-map.jpg') no-repeat;
     background-size: cover;
     background-position: center;
   }
