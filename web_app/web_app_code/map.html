@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fiend me map</title>
+    <title>Find me map</title>
+    <link rel="stylesheet" href="map.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO6oGDAcD0tZTP3zkgxptduRi6WfTkSjA" defer></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js" defer></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js" defer></script>
+    <script src="map_js.js" type="module" defer></script>
 </head>
 <body>
-    <h1>HIIIIIIIIIIIIIIIIIIIIII</h1>
+    
+    
+    
+    <div id="map"></div>
+
+    
+    <div class="container bottom-left">
+        <h1>Moi</h1>
+        <pre id="data">Chargement des données...</pre>
+    </div>
+
+    
+    <div class="container bottom-right">
+        <h1>Tracker</h1>
+        <div id="location"></div>
+    </div>
 </body>
 </html>

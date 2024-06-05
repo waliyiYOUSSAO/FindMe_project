@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const identifiant_js = document.getElementById('identifiant');
     const get_id = document.getElementById('password');
-    const correct_id = '08052024';
+    const correct_id = 'findme2024';
 
     identifiant_js.addEventListener('submit', function(event) {
         event.preventDefault(); // prevent the default form submission behavior
