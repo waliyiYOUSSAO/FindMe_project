@@ -11,21 +11,35 @@
     <script src="js/map_js.js" type="module" defer></script>
 </head>
 <body>
-    
-    
-    
-    <div id="map"></div>
-
+    <div id="map"></div> 
+    <div class="button-container">
+        <button type="button" class="btn" onclick="openModal('trackerModal')">More info on tracker</button>
+        <button type="button" class="btn2" onclick="openModal('meModal')">More info on me</button>
+    </div>
     
     <div class="container bottom-left">
-        <h1>Moi</h1>
+        <h1>Tracker</h1>
         <pre id="data">Chargement des données...</pre>
     </div>
 
-    
     <div class="container bottom-right">
-        <h1>Tracker</h1>
+        <h1>Moi</h1>
         <div id="location"></div>
+    </div>
+    
+    <!-- Modales -->
+    <div id="trackerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('trackerModal')">&times;</span>
+            <p id="trackerInfo">Information sur le tracker...</p>
+        </div>
+    </div>
+    
+    <div id="meModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('meModal')">&times;</span>
+            <p id="meInfo">Information sur moi...</p>
+        </div>
     </div>
 </body>
 </html>
