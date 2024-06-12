@@ -53,10 +53,7 @@ function showPosition(position) { // fonction pour afficher la position de l'uti
   var latitude = position.coords.latitude;
   var longitude = position.coords.longitude;
   var accuracy = position.coords.accuracy;
-  document.getElementById("location").innerHTML = 
-      "Latitude: " + latitude + "<br>" +
-      "Longitude: " + longitude + "<br>" +
-      "Précision: " + accuracy + " mètres";
+  
 
   // Centrer la carte sur la position de l'utilisateur
   userLocation = { lat: latitude, lng: longitude };
@@ -106,7 +103,7 @@ onValue(dataRef, (snapshot) => { // écoute des données pour les mettre ajour
   tracker_location = {lat:lati, lng: longi} 
   map.setCenter(tracker_location); // centralisation de la carte sur les information du tracker 
 
-  document.getElementById('data').innerText = JSON.stringify(data, null, 2);
+  //document.getElementById('data').innerText = JSON.stringify(data, null, 2);
   
   if (data) {
     const markerIcon = {
